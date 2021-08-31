@@ -1,0 +1,22 @@
+[user]
+	email = raphpb1912@gmail.com
+	name = Raphael Tang
+	signingkey = 5FF3955162C13542B2713A1EBB0C8D0C7A5C3EC3
+[credential]
+	helper = store
+[alias]
+	yolo = !git add -A && git commit -m \"$(curl --silent --fail http://whatthecommit.com/index.txt)\"
+	auto-commit = !git add -A && git commit -m \"$(git status --porcelain)\"
+[pull]
+	rebase = false
+[core]
+	autocrlf = true
+[color]
+	ui = auto
+[filter "lfs"]
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+[commit]
+	gpgsign = true

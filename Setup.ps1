@@ -35,6 +35,5 @@ cd dotfiles
     }
     cp "WindowsPowershell\Microsoft.PowerShell_profile.ps1" "${env:USERPROFILE}\Documents\WindowsPowershell"
     cp "WindowsTerminal\settings.json" "${env:APPDATA}\..\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json"
+    cp ".gitconfig" "${env:USERPROFILE}"
 }
-
-
