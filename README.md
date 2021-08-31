@@ -6,11 +6,8 @@ If there is a better way of backing up dotfiles on Windows, please let me know ð
 
 ### Installation
 
-```powershell
-cd ~
-git clone git@github.com:raphtlw/dotfiles-win.git
-cd dotfiles-win
-./Setup
-```
+Use this if you want to setup a new installation
 
-Remember to omit the `./Setup` line if boostrapping is not necessary (if it isn't a new Windows box).
+```powershell
+iwr -useb https://raw.githubusercontent.com/raphtlw/dotfiles-win/main/Setup.ps1 | iex
+```
