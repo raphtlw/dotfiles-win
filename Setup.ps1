@@ -17,6 +17,7 @@ scoop bucket add extras
 scoop install aria2 git sudo
 sudo scoop install 7zip okular --global
 scoop install https://github.com/JanDeDobbeleer/oh-my-posh/releases/latest/download/oh-my-posh.json
+scoop install posh-git
 
 refreshenv
 
