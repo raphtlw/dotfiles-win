@@ -98,3 +98,7 @@ Copy WindowsPowershell from this repo to the `%USERPROFILE%\Documents` directory
 ### Setup Windows Terminal
 
 Copy `WindowsTerminal\settings.json` from this repo to `%LOCALAPPDATA%\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json`.
+
+### Install Fonts
+
+Open the explorer from within WSL at `~/.local/share/fonts` and select all the fonts, right click and install.
